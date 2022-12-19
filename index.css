@@ -1,0 +1,40 @@
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+nav{
+    float: right;
+}
+.riadh {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+    margin-top: 100px;
+  }
+  .monia{ color: aqua; text-align: center;
+    font-size: 1.875em;
+    margin: 0.7em 0;
+  }
+  .container{display: flex;margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400; }
+    .col{
+        background-color: aquamarine;
+        margin: 0.3em 0;
+    }
+    .col1{background-color: blue ;
+    padding: 1.375em 1.25em 0;
+}
+
+   .col2{font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #ff;
+}
+.parent{display: flex;}
+.maman{justify-items: flex-end;}
+.fille{text-align: center;
+font-size: small;
+font-weight: 50%;}
