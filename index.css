@@ -26,15 +26,36 @@ nav{
     .col1{background-color: blue ;
     padding: 1.375em 1.25em 0;
 }
-
    .col2{font-size: 1.5em;
     font-weight: 300;
     line-height: 1.2;
     margin: 0;
     color: #ff;
+    background-color: red;
 }
-.parent{display: flex;}
-.maman{justify-items: flex-end;}
+.parent{display: flex; margin: 10px;}
+.maman{justify-items: flex-end; float: right; margin: 30px 800px;
+padding: 0%;}
 .fille{text-align: center;
 font-size: small;
 font-weight: 50%;}
+.lin{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.h4{text-align: center;}
+#rou{background-color: blue;
+color: antiquewhite;}
+.footer{text-align: center;
+text-decoration: aqua;}
+.papa{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    background-color: aquamarine;
+}
+.mariem{color: aquamarine;}
+.ayed{color: aquamarine;}
